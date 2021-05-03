@@ -1,0 +1,583 @@
+\hypertarget{class_complex}{}\doxysection{Класс Complex}
+\label{class_complex}\index{Complex@{Complex}}
+
+
+{\ttfamily \#include $<$mycomplex.\+h$>$}
+
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_complex_a7bf9edc279e3a3fda953bf2112f3d1bb}{Complex}} (double a\+Re=0, double a\+Im=0)
+\item 
+\mbox{\hyperlink{class_complex_a1a7bb66f140c2b281f27de9d3acb9130}{Complex}} (const \mbox{\hyperlink{class_complex}{Complex}} \&)
+\item 
+\mbox{\hyperlink{class_complex_a70e14b17c92e3da779686b98f9f3bb2d}{$\sim$\+Complex}} ()
+\item 
+void \mbox{\hyperlink{class_complex_ae89f691ae1104d55c8beb8075931890a}{Set}} (double a\+Re, double a\+Im=0)
+\item 
+\mbox{\hyperlink{class_complex_a59b4c03f7077be915ad20d626c6f7fe8}{operator double}} ()
+\item 
+double \mbox{\hyperlink{class_complex_a58d7c29c61d424236f183767ed57b716}{abs}} ()
+\item 
+\mbox{\hyperlink{class_complex}{Complex}} \mbox{\hyperlink{class_complex_adbfd985a9c2682ae1c722100df615d00}{operator+}} (const \mbox{\hyperlink{class_complex}{Complex}} \&)
+\item 
+\mbox{\hyperlink{class_complex}{Complex}} \mbox{\hyperlink{class_complex_a60650d5b6b85c95395485b7d017e1972}{operator-\/}} (const \mbox{\hyperlink{class_complex}{Complex}} \&)
+\item 
+\mbox{\hyperlink{class_complex}{Complex}} \mbox{\hyperlink{class_complex_a64bd935ec98176c69d65dec611713558}{operator+}} (const double \&)
+\item 
+\mbox{\hyperlink{class_complex}{Complex}} \mbox{\hyperlink{class_complex_a291a5fa5e407da4edd2c0a1a75b59f4a}{operator-\/}} (const double \&)
+\item 
+\mbox{\hyperlink{class_complex}{Complex}} \mbox{\hyperlink{class_complex_a190fd0ab6b3045666076d296d5670643}{operator$\ast$}} (const \mbox{\hyperlink{class_complex}{Complex}} \&)
+\item 
+\mbox{\hyperlink{class_complex}{Complex}} \mbox{\hyperlink{class_complex_aa2ac6ddd3918e832c09546427c214fc7}{operator$\ast$}} (const double \&)
+\item 
+\mbox{\hyperlink{class_complex}{Complex}} \mbox{\hyperlink{class_complex_a0314b2c799b357147463298242d00950}{operator/}} (const double \&)
+\item 
+\mbox{\hyperlink{class_complex}{Complex}} \& \mbox{\hyperlink{class_complex_a20043a6aeae9bc2db6b6a4f12cf9aff8}{operator+=}} (const \mbox{\hyperlink{class_complex}{Complex}} \&)
+\item 
+\mbox{\hyperlink{class_complex}{Complex}} \& \mbox{\hyperlink{class_complex_a25d8bcc51e0df77449db1b715112f7c3}{operator-\/=}} (const \mbox{\hyperlink{class_complex}{Complex}} \&)
+\item 
+\mbox{\hyperlink{class_complex}{Complex}} \& \mbox{\hyperlink{class_complex_ab8a1dade297c4603c96e7a5ee7ac6e6d}{operator$\ast$=}} (const \mbox{\hyperlink{class_complex}{Complex}} \&)
+\item 
+\mbox{\hyperlink{class_complex}{Complex}} \& \mbox{\hyperlink{class_complex_acfafe27dc49d4c33a2d277f81d0bc9cc}{operator+=}} (const double \&)
+\item 
+\mbox{\hyperlink{class_complex}{Complex}} \& \mbox{\hyperlink{class_complex_a8a7e9109b425b9d77666fc605eb5d87a}{operator-\/=}} (const double \&)
+\item 
+\mbox{\hyperlink{class_complex}{Complex}} \& \mbox{\hyperlink{class_complex_a3a2de4ca2da536bebfa48fe1ca13e176}{operator$\ast$=}} (const double \&)
+\item 
+\mbox{\hyperlink{class_complex}{Complex}} \& \mbox{\hyperlink{class_complex_aa328e81d655dcc03b3179e021a78e4c4}{operator/=}} (const double \&)
+\item 
+\mbox{\hyperlink{class_complex}{Complex}} \& \mbox{\hyperlink{class_complex_a18f1ec95391babdae864ae482daf5884}{operator=}} (const \mbox{\hyperlink{class_complex}{Complex}} \&)
+\item 
+\mbox{\hyperlink{class_complex}{Complex}} \& \mbox{\hyperlink{class_complex_a2d542a693bec5347777f29cdc365573f}{operator=}} (const double \&)
+\end{DoxyCompactItemize}
+\doxysubsection*{Закрытые данные}
+\begin{DoxyCompactItemize}
+\item 
+double \mbox{\hyperlink{class_complex_aed0f7f2a72da406620581d863a6dc333}{Re}}
+\item 
+double \mbox{\hyperlink{class_complex_a25938efdb07e8d21e4a07392a3494e0b}{Im}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Друзья}
+\begin{DoxyCompactItemize}
+\item 
+istream \& \mbox{\hyperlink{class_complex_ab19a08bc53dc9bb99828aec0f7fac0e0}{operator$>$$>$}} (istream \&, \mbox{\hyperlink{class_complex}{Complex}} \&)
+\item 
+ostream \& \mbox{\hyperlink{class_complex_acaf8464158083ae26bf694610bc7a5e1}{operator$<$$<$}} (ostream \&, \mbox{\hyperlink{class_complex}{Complex}} \&)
+\item 
+\mbox{\hyperlink{class_complex}{Complex}} \mbox{\hyperlink{class_complex_a7a114a16a50d0f8663acbc2adbbb12c1}{operator+}} (const double \&, const \mbox{\hyperlink{class_complex}{Complex}} \&)
+\item 
+\mbox{\hyperlink{class_complex}{Complex}} \mbox{\hyperlink{class_complex_a3d1644387325ea40d238936a67c8b047}{operator-\/}} (const double \&, const \mbox{\hyperlink{class_complex}{Complex}} \&)
+\item 
+\mbox{\hyperlink{class_complex}{Complex}} \mbox{\hyperlink{class_complex_a3e768eb0064f8355c8cfe656149e250c}{operator$\ast$}} (const double \&, const \mbox{\hyperlink{class_complex}{Complex}} \&)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+
+
+См. определение в файле mycomplex.\+h строка 5
+
+
+
+\doxysubsection{Конструктор(ы)}
+\mbox{\Hypertarget{class_complex_a7bf9edc279e3a3fda953bf2112f3d1bb}\label{class_complex_a7bf9edc279e3a3fda953bf2112f3d1bb}} 
+\index{Complex@{Complex}!Complex@{Complex}}
+\index{Complex@{Complex}!Complex@{Complex}}
+\doxysubsubsection{\texorpdfstring{Complex()}{Complex()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Complex\+::\+Complex (\begin{DoxyParamCaption}\item[{double}]{a\+Re = {\ttfamily 0},  }\item[{double}]{a\+Im = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+
+
+См. определение в файле mycomplex.\+cpp строка 5
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{5 \{   \mbox{\hyperlink{class_complex_aed0f7f2a72da406620581d863a6dc333}{Re}} = aRe;   \mbox{\hyperlink{class_complex_a25938efdb07e8d21e4a07392a3494e0b}{Im}} = aIm; \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_complex_a1a7bb66f140c2b281f27de9d3acb9130}\label{class_complex_a1a7bb66f140c2b281f27de9d3acb9130}} 
+\index{Complex@{Complex}!Complex@{Complex}}
+\index{Complex@{Complex}!Complex@{Complex}}
+\doxysubsubsection{\texorpdfstring{Complex()}{Complex()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Complex\+::\+Complex (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_complex}{Complex}} \&}]{a\+Rval }\end{DoxyParamCaption})}
+
+
+
+См. определение в файле mycomplex.\+cpp строка 7
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{8 \{  \mbox{\hyperlink{class_complex_aed0f7f2a72da406620581d863a6dc333}{Re}} =aRval.\mbox{\hyperlink{class_complex_aed0f7f2a72da406620581d863a6dc333}{Re}}; \mbox{\hyperlink{class_complex_a25938efdb07e8d21e4a07392a3494e0b}{Im}}=aRval.\mbox{\hyperlink{class_complex_a25938efdb07e8d21e4a07392a3494e0b}{Im}};\}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_complex_a70e14b17c92e3da779686b98f9f3bb2d}\label{class_complex_a70e14b17c92e3da779686b98f9f3bb2d}} 
+\index{Complex@{Complex}!````~Complex@{$\sim$Complex}}
+\index{````~Complex@{$\sim$Complex}!Complex@{Complex}}
+\doxysubsubsection{\texorpdfstring{$\sim$Complex()}{~Complex()}}
+{\footnotesize\ttfamily Complex\+::$\sim$\+Complex (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+См. определение в файле mycomplex.\+cpp строка 9
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{9                   \{}
+\DoxyCodeLine{10 \mbox{\hyperlink{class_complex_aed0f7f2a72da406620581d863a6dc333}{Re}} =0.0;}
+\DoxyCodeLine{11 \mbox{\hyperlink{class_complex_a25938efdb07e8d21e4a07392a3494e0b}{Im}}= 0.0;\}}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{class_complex_a58d7c29c61d424236f183767ed57b716}\label{class_complex_a58d7c29c61d424236f183767ed57b716}} 
+\index{Complex@{Complex}!abs@{abs}}
+\index{abs@{abs}!Complex@{Complex}}
+\doxysubsubsection{\texorpdfstring{abs()}{abs()}}
+{\footnotesize\ttfamily double Complex\+::abs (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+См. определение в файле mycomplex.\+cpp строка 17
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{18 \{}
+\DoxyCodeLine{19 \textcolor{keywordflow}{return} sqrt(\mbox{\hyperlink{class_complex_aed0f7f2a72da406620581d863a6dc333}{Re}}*\mbox{\hyperlink{class_complex_aed0f7f2a72da406620581d863a6dc333}{Re}}+\mbox{\hyperlink{class_complex_a25938efdb07e8d21e4a07392a3494e0b}{Im}}*\mbox{\hyperlink{class_complex_a25938efdb07e8d21e4a07392a3494e0b}{Im}});}
+\DoxyCodeLine{20 \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_complex_a59b4c03f7077be915ad20d626c6f7fe8}\label{class_complex_a59b4c03f7077be915ad20d626c6f7fe8}} 
+\index{Complex@{Complex}!operator double@{operator double}}
+\index{operator double@{operator double}!Complex@{Complex}}
+\doxysubsubsection{\texorpdfstring{operator double()}{operator double()}}
+{\footnotesize\ttfamily Complex\+::operator double (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+См. определение в файле mycomplex.\+cpp строка 13
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{14 \{  \textcolor{keywordflow}{return} \mbox{\hyperlink{class_complex_a58d7c29c61d424236f183767ed57b716}{abs}}();}
+\DoxyCodeLine{15 \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_complex_a190fd0ab6b3045666076d296d5670643}\label{class_complex_a190fd0ab6b3045666076d296d5670643}} 
+\index{Complex@{Complex}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Complex@{Complex}}
+\doxysubsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_complex}{Complex}} Complex\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_complex}{Complex}} \&}]{a\+Rval }\end{DoxyParamCaption})}
+
+
+
+См. определение в файле mycomplex.\+cpp строка 47
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{48  \{}
+\DoxyCodeLine{49 \mbox{\hyperlink{class_complex}{Complex}} Result;Result.\mbox{\hyperlink{class_complex_aed0f7f2a72da406620581d863a6dc333}{Re}}=\mbox{\hyperlink{class_complex_aed0f7f2a72da406620581d863a6dc333}{Re}}*aRval.\mbox{\hyperlink{class_complex_aed0f7f2a72da406620581d863a6dc333}{Re}}-\/\mbox{\hyperlink{class_complex_a25938efdb07e8d21e4a07392a3494e0b}{Im}}*aRval.\mbox{\hyperlink{class_complex_a25938efdb07e8d21e4a07392a3494e0b}{Im}};Result.\mbox{\hyperlink{class_complex_a25938efdb07e8d21e4a07392a3494e0b}{Im}} =\mbox{\hyperlink{class_complex_aed0f7f2a72da406620581d863a6dc333}{Re}} *aRval.\mbox{\hyperlink{class_complex_a25938efdb07e8d21e4a07392a3494e0b}{Im}}+\mbox{\hyperlink{class_complex_a25938efdb07e8d21e4a07392a3494e0b}{Im}}*aRval.\mbox{\hyperlink{class_complex_aed0f7f2a72da406620581d863a6dc333}{Re}};}
+\DoxyCodeLine{50 \textcolor{keywordflow}{return} Result;\}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_complex_aa2ac6ddd3918e832c09546427c214fc7}\label{class_complex_aa2ac6ddd3918e832c09546427c214fc7}} 
+\index{Complex@{Complex}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Complex@{Complex}}
+\doxysubsubsection{\texorpdfstring{operator$\ast$()}{operator*()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_complex}{Complex}} Complex\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const double \&}]{a\+Rval }\end{DoxyParamCaption})}
+
+
+
+См. определение в файле mycomplex.\+cpp строка 52
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{53 \{}
+\DoxyCodeLine{54    \mbox{\hyperlink{class_complex}{Complex}} Result;}
+\DoxyCodeLine{55    Result.\mbox{\hyperlink{class_complex_aed0f7f2a72da406620581d863a6dc333}{Re}} =\mbox{\hyperlink{class_complex_aed0f7f2a72da406620581d863a6dc333}{Re}}*aRval;}
+\DoxyCodeLine{56    Result.\mbox{\hyperlink{class_complex_a25938efdb07e8d21e4a07392a3494e0b}{Im}} =\mbox{\hyperlink{class_complex_a25938efdb07e8d21e4a07392a3494e0b}{Im}}*aRval;}
+\DoxyCodeLine{57      \textcolor{keywordflow}{return} Result;}
+\DoxyCodeLine{58 \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_complex_ab8a1dade297c4603c96e7a5ee7ac6e6d}\label{class_complex_ab8a1dade297c4603c96e7a5ee7ac6e6d}} 
+\index{Complex@{Complex}!operator$\ast$=@{operator$\ast$=}}
+\index{operator$\ast$=@{operator$\ast$=}!Complex@{Complex}}
+\doxysubsubsection{\texorpdfstring{operator$\ast$=()}{operator*=()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_complex}{Complex}} \& Complex\+::operator$\ast$= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_complex}{Complex}} \&}]{a\+Rval }\end{DoxyParamCaption})}
+
+
+
+См. определение в файле mycomplex.\+cpp строка 75
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{76 \{ \textcolor{keywordtype}{double} tmpRe = \mbox{\hyperlink{class_complex_aed0f7f2a72da406620581d863a6dc333}{Re}}; \mbox{\hyperlink{class_complex_aed0f7f2a72da406620581d863a6dc333}{Re}} = \mbox{\hyperlink{class_complex_aed0f7f2a72da406620581d863a6dc333}{Re}} * aRval.\mbox{\hyperlink{class_complex_aed0f7f2a72da406620581d863a6dc333}{Re}} -\/ \mbox{\hyperlink{class_complex_a25938efdb07e8d21e4a07392a3494e0b}{Im}} * aRval.\mbox{\hyperlink{class_complex_a25938efdb07e8d21e4a07392a3494e0b}{Im}};}
+\DoxyCodeLine{77 \mbox{\hyperlink{class_complex_a25938efdb07e8d21e4a07392a3494e0b}{Im}} = \mbox{\hyperlink{class_complex_a25938efdb07e8d21e4a07392a3494e0b}{Im}} * aRval.\mbox{\hyperlink{class_complex_aed0f7f2a72da406620581d863a6dc333}{Re}} + tmpRe * aRval.\mbox{\hyperlink{class_complex_a25938efdb07e8d21e4a07392a3494e0b}{Im}}; \textcolor{keywordflow}{return} *\textcolor{keyword}{this};}
+\DoxyCodeLine{78 \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_complex_a3a2de4ca2da536bebfa48fe1ca13e176}\label{class_complex_a3a2de4ca2da536bebfa48fe1ca13e176}} 
+\index{Complex@{Complex}!operator$\ast$=@{operator$\ast$=}}
+\index{operator$\ast$=@{operator$\ast$=}!Complex@{Complex}}
+\doxysubsubsection{\texorpdfstring{operator$\ast$=()}{operator*=()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_complex}{Complex}} \& Complex\+::operator$\ast$= (\begin{DoxyParamCaption}\item[{const double \&}]{a\+Rval }\end{DoxyParamCaption})}
+
+
+
+См. определение в файле mycomplex.\+cpp строка 91
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{91 \{  \mbox{\hyperlink{class_complex_aed0f7f2a72da406620581d863a6dc333}{Re}} *= aRval;  \mbox{\hyperlink{class_complex_a25938efdb07e8d21e4a07392a3494e0b}{Im}} *= aRval;   \textcolor{keywordflow}{return} *\textcolor{keyword}{this}; \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_complex_adbfd985a9c2682ae1c722100df615d00}\label{class_complex_adbfd985a9c2682ae1c722100df615d00}} 
+\index{Complex@{Complex}!operator+@{operator+}}
+\index{operator+@{operator+}!Complex@{Complex}}
+\doxysubsubsection{\texorpdfstring{operator+()}{operator+()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_complex}{Complex}} Complex\+::operator+ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_complex}{Complex}} \&}]{a\+Rval }\end{DoxyParamCaption})}
+
+
+
+См. определение в файле mycomplex.\+cpp строка 21
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{22 \{}
+\DoxyCodeLine{23   \mbox{\hyperlink{class_complex}{Complex}} Result;}
+\DoxyCodeLine{24   Result.\mbox{\hyperlink{class_complex_aed0f7f2a72da406620581d863a6dc333}{Re}}=\mbox{\hyperlink{class_complex_aed0f7f2a72da406620581d863a6dc333}{Re}}+ aRval. \mbox{\hyperlink{class_complex_aed0f7f2a72da406620581d863a6dc333}{Re}};}
+\DoxyCodeLine{25 Result.\mbox{\hyperlink{class_complex_a25938efdb07e8d21e4a07392a3494e0b}{Im}} =\mbox{\hyperlink{class_complex_a25938efdb07e8d21e4a07392a3494e0b}{Im}} + aRval.\mbox{\hyperlink{class_complex_a25938efdb07e8d21e4a07392a3494e0b}{Im}} ;}
+\DoxyCodeLine{26   \textcolor{keywordflow}{return} Result;}
+\DoxyCodeLine{27 \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_complex_a64bd935ec98176c69d65dec611713558}\label{class_complex_a64bd935ec98176c69d65dec611713558}} 
+\index{Complex@{Complex}!operator+@{operator+}}
+\index{operator+@{operator+}!Complex@{Complex}}
+\doxysubsubsection{\texorpdfstring{operator+()}{operator+()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_complex}{Complex}} Complex\+::operator+ (\begin{DoxyParamCaption}\item[{const double \&}]{aval }\end{DoxyParamCaption})}
+
+
+
+См. определение в файле mycomplex.\+cpp строка 33
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{34 \{\mbox{\hyperlink{class_complex}{Complex}} result;}
+\DoxyCodeLine{35  result.\mbox{\hyperlink{class_complex_aed0f7f2a72da406620581d863a6dc333}{Re}}= \mbox{\hyperlink{class_complex_aed0f7f2a72da406620581d863a6dc333}{Re}} +aval;}
+\DoxyCodeLine{36   result.\mbox{\hyperlink{class_complex_a25938efdb07e8d21e4a07392a3494e0b}{Im}} = \mbox{\hyperlink{class_complex_a25938efdb07e8d21e4a07392a3494e0b}{Im}};}
+\DoxyCodeLine{37 \textcolor{keywordflow}{return} result;}
+\DoxyCodeLine{38 \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_complex_a20043a6aeae9bc2db6b6a4f12cf9aff8}\label{class_complex_a20043a6aeae9bc2db6b6a4f12cf9aff8}} 
+\index{Complex@{Complex}!operator+=@{operator+=}}
+\index{operator+=@{operator+=}!Complex@{Complex}}
+\doxysubsubsection{\texorpdfstring{operator+=()}{operator+=()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_complex}{Complex}} \& Complex\+::operator+= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_complex}{Complex}} \&}]{arval }\end{DoxyParamCaption})}
+
+
+
+См. определение в файле mycomplex.\+cpp строка 65
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{66 \{}
+\DoxyCodeLine{67   \mbox{\hyperlink{class_complex_aed0f7f2a72da406620581d863a6dc333}{Re}}+= arval.\mbox{\hyperlink{class_complex_aed0f7f2a72da406620581d863a6dc333}{Re}};}
+\DoxyCodeLine{68   \mbox{\hyperlink{class_complex_a25938efdb07e8d21e4a07392a3494e0b}{Im}} +=arval.\mbox{\hyperlink{class_complex_a25938efdb07e8d21e4a07392a3494e0b}{Im}};}
+\DoxyCodeLine{69 \textcolor{keywordflow}{return} * \textcolor{keyword}{this};}
+\DoxyCodeLine{70 \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_complex_acfafe27dc49d4c33a2d277f81d0bc9cc}\label{class_complex_acfafe27dc49d4c33a2d277f81d0bc9cc}} 
+\index{Complex@{Complex}!operator+=@{operator+=}}
+\index{operator+=@{operator+=}!Complex@{Complex}}
+\doxysubsubsection{\texorpdfstring{operator+=()}{operator+=()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_complex}{Complex}} \& Complex\+::operator+= (\begin{DoxyParamCaption}\item[{const double \&}]{a\+Rval }\end{DoxyParamCaption})}
+
+
+
+См. определение в файле mycomplex.\+cpp строка 82
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{83 \{\mbox{\hyperlink{class_complex_aed0f7f2a72da406620581d863a6dc333}{Re}}+=aRval;}
+\DoxyCodeLine{84 \textcolor{keywordflow}{return}*\textcolor{keyword}{this};\}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_complex_a60650d5b6b85c95395485b7d017e1972}\label{class_complex_a60650d5b6b85c95395485b7d017e1972}} 
+\index{Complex@{Complex}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!Complex@{Complex}}
+\doxysubsubsection{\texorpdfstring{operator-\/()}{operator-()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_complex}{Complex}} Complex\+::operator-\/ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_complex}{Complex}} \&}]{a\+Rval }\end{DoxyParamCaption})}
+
+
+
+См. определение в файле mycomplex.\+cpp строка 28
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{28                                                            \{}
+\DoxyCodeLine{29 \mbox{\hyperlink{class_complex}{Complex}} Result;}
+\DoxyCodeLine{30  Result.\mbox{\hyperlink{class_complex_aed0f7f2a72da406620581d863a6dc333}{Re}} = \mbox{\hyperlink{class_complex_aed0f7f2a72da406620581d863a6dc333}{Re}}-\/aRval.\mbox{\hyperlink{class_complex_aed0f7f2a72da406620581d863a6dc333}{Re}};}
+\DoxyCodeLine{31 Result.\mbox{\hyperlink{class_complex_a25938efdb07e8d21e4a07392a3494e0b}{Im}}=   \mbox{\hyperlink{class_complex_a25938efdb07e8d21e4a07392a3494e0b}{Im}}-\/aRval.\mbox{\hyperlink{class_complex_a25938efdb07e8d21e4a07392a3494e0b}{Im}};}
+\DoxyCodeLine{32 \textcolor{keywordflow}{return} Result;\}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_complex_a291a5fa5e407da4edd2c0a1a75b59f4a}\label{class_complex_a291a5fa5e407da4edd2c0a1a75b59f4a}} 
+\index{Complex@{Complex}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!Complex@{Complex}}
+\doxysubsubsection{\texorpdfstring{operator-\/()}{operator-()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_complex}{Complex}} Complex\+::operator-\/ (\begin{DoxyParamCaption}\item[{const double \&}]{a\+Rval }\end{DoxyParamCaption})}
+
+
+
+См. определение в файле mycomplex.\+cpp строка 39
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{40 \{ \mbox{\hyperlink{class_complex}{Complex}} Result(*\textcolor{keyword}{this});}
+\DoxyCodeLine{41 }
+\DoxyCodeLine{42 }
+\DoxyCodeLine{43   Result.Re = \mbox{\hyperlink{class_complex_aed0f7f2a72da406620581d863a6dc333}{Re}} -\/ aRval;}
+\DoxyCodeLine{44 \textcolor{keywordflow}{return} Result;}
+\DoxyCodeLine{45 \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_complex_a25d8bcc51e0df77449db1b715112f7c3}\label{class_complex_a25d8bcc51e0df77449db1b715112f7c3}} 
+\index{Complex@{Complex}!operator-\/=@{operator-\/=}}
+\index{operator-\/=@{operator-\/=}!Complex@{Complex}}
+\doxysubsubsection{\texorpdfstring{operator-\/=()}{operator-=()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_complex}{Complex}} \& Complex\+::operator-\/= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_complex}{Complex}} \&}]{a\+Rval }\end{DoxyParamCaption})}
+
+
+
+См. определение в файле mycomplex.\+cpp строка 71
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{72 \{ \mbox{\hyperlink{class_complex_aed0f7f2a72da406620581d863a6dc333}{Re}}-\/=aRval.\mbox{\hyperlink{class_complex_aed0f7f2a72da406620581d863a6dc333}{Re}};}
+\DoxyCodeLine{73 \mbox{\hyperlink{class_complex_a25938efdb07e8d21e4a07392a3494e0b}{Im}}-\/= aRval.\mbox{\hyperlink{class_complex_a25938efdb07e8d21e4a07392a3494e0b}{Im}}; \textcolor{keywordflow}{return} *\textcolor{keyword}{this};\}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_complex_a8a7e9109b425b9d77666fc605eb5d87a}\label{class_complex_a8a7e9109b425b9d77666fc605eb5d87a}} 
+\index{Complex@{Complex}!operator-\/=@{operator-\/=}}
+\index{operator-\/=@{operator-\/=}!Complex@{Complex}}
+\doxysubsubsection{\texorpdfstring{operator-\/=()}{operator-=()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_complex}{Complex}} \& Complex\+::operator-\/= (\begin{DoxyParamCaption}\item[{const double \&}]{a\+Rval }\end{DoxyParamCaption})}
+
+
+
+См. определение в файле mycomplex.\+cpp строка 86
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{86                                                                                    \{}
+\DoxyCodeLine{87  \mbox{\hyperlink{class_complex_aed0f7f2a72da406620581d863a6dc333}{Re}} -\/= aRval;}
+\DoxyCodeLine{88   \textcolor{keywordflow}{return} *\textcolor{keyword}{this};}
+\DoxyCodeLine{89 }
+\DoxyCodeLine{90 }
+\DoxyCodeLine{91 \}\mbox{\hyperlink{class_complex}{Complex}}\&\mbox{\hyperlink{class_complex_ab8a1dade297c4603c96e7a5ee7ac6e6d}{Complex   ::operator  *=  }}( \textcolor{keyword}{const}  \textcolor{keywordtype}{double}  \&  aRval) \{  \mbox{\hyperlink{class_complex_aed0f7f2a72da406620581d863a6dc333}{Re}} *= aRval;  \mbox{\hyperlink{class_complex_a25938efdb07e8d21e4a07392a3494e0b}{Im}} *= aRval;   \textcolor{keywordflow}{return} *\textcolor{keyword}{this}; \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_complex_a0314b2c799b357147463298242d00950}\label{class_complex_a0314b2c799b357147463298242d00950}} 
+\index{Complex@{Complex}!operator/@{operator/}}
+\index{operator/@{operator/}!Complex@{Complex}}
+\doxysubsubsection{\texorpdfstring{operator/()}{operator/()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_complex}{Complex}} Complex\+::operator/ (\begin{DoxyParamCaption}\item[{const double \&}]{a\+Rval }\end{DoxyParamCaption})}
+
+
+
+См. определение в файле mycomplex.\+cpp строка 59
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{60 \{ \mbox{\hyperlink{class_complex}{Complex}} Result;}
+\DoxyCodeLine{61   Result.\mbox{\hyperlink{class_complex_aed0f7f2a72da406620581d863a6dc333}{Re}} = \mbox{\hyperlink{class_complex_aed0f7f2a72da406620581d863a6dc333}{Re}}/aRval;}
+\DoxyCodeLine{62   Result.\mbox{\hyperlink{class_complex_a25938efdb07e8d21e4a07392a3494e0b}{Im}} = \mbox{\hyperlink{class_complex_a25938efdb07e8d21e4a07392a3494e0b}{Im}}/aRval;}
+\DoxyCodeLine{63   \textcolor{keywordflow}{return} Result; \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_complex_aa328e81d655dcc03b3179e021a78e4c4}\label{class_complex_aa328e81d655dcc03b3179e021a78e4c4}} 
+\index{Complex@{Complex}!operator/=@{operator/=}}
+\index{operator/=@{operator/=}!Complex@{Complex}}
+\doxysubsubsection{\texorpdfstring{operator/=()}{operator/=()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_complex}{Complex}} \& Complex\+::operator/= (\begin{DoxyParamCaption}\item[{const double \&}]{a\+Rval }\end{DoxyParamCaption})}
+
+
+
+См. определение в файле mycomplex.\+cpp строка 92
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{93 \{ \mbox{\hyperlink{class_complex_aed0f7f2a72da406620581d863a6dc333}{Re}}/=aRval; \mbox{\hyperlink{class_complex_a25938efdb07e8d21e4a07392a3494e0b}{Im}} /=aRval;}
+\DoxyCodeLine{94              \textcolor{keywordflow}{return} *\textcolor{keyword}{this}; \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_complex_a18f1ec95391babdae864ae482daf5884}\label{class_complex_a18f1ec95391babdae864ae482daf5884}} 
+\index{Complex@{Complex}!operator=@{operator=}}
+\index{operator=@{operator=}!Complex@{Complex}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_complex}{Complex}} \& Complex\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_complex}{Complex}} \&}]{a\+Rval }\end{DoxyParamCaption})}
+
+
+
+См. определение в файле mycomplex.\+cpp строка 95
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{96 \{ \mbox{\hyperlink{class_complex_aed0f7f2a72da406620581d863a6dc333}{Re}}=aRval.\mbox{\hyperlink{class_complex_aed0f7f2a72da406620581d863a6dc333}{Re}}; \mbox{\hyperlink{class_complex_a25938efdb07e8d21e4a07392a3494e0b}{Im}}=aRval.\mbox{\hyperlink{class_complex_a25938efdb07e8d21e4a07392a3494e0b}{Im}};  \textcolor{keywordflow}{return} *\textcolor{keyword}{this}; \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_complex_a2d542a693bec5347777f29cdc365573f}\label{class_complex_a2d542a693bec5347777f29cdc365573f}} 
+\index{Complex@{Complex}!operator=@{operator=}}
+\index{operator=@{operator=}!Complex@{Complex}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_complex}{Complex}} \& Complex\+::operator= (\begin{DoxyParamCaption}\item[{const double \&}]{a\+Rval }\end{DoxyParamCaption})}
+
+
+
+См. определение в файле mycomplex.\+cpp строка 97
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{98 \{ \mbox{\hyperlink{class_complex_aed0f7f2a72da406620581d863a6dc333}{Re}} = aRval;   \mbox{\hyperlink{class_complex_a25938efdb07e8d21e4a07392a3494e0b}{Im}} = 0.0;   \textcolor{keywordflow}{return} *\textcolor{keyword}{this}; \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_complex_ae89f691ae1104d55c8beb8075931890a}\label{class_complex_ae89f691ae1104d55c8beb8075931890a}} 
+\index{Complex@{Complex}!Set@{Set}}
+\index{Set@{Set}!Complex@{Complex}}
+\doxysubsubsection{\texorpdfstring{Set()}{Set()}}
+{\footnotesize\ttfamily void Complex\+::\+Set (\begin{DoxyParamCaption}\item[{double}]{a\+Re,  }\item[{double}]{a\+Im = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+
+
+См. определение в файле mycomplex.\+cpp строка 12
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{12 \{   \mbox{\hyperlink{class_complex_aed0f7f2a72da406620581d863a6dc333}{Re}} = aRe;\mbox{\hyperlink{class_complex_a25938efdb07e8d21e4a07392a3494e0b}{Im}} = aIm;\}}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Документация по друзьям класса и функциям, относящимся к классу}
+\mbox{\Hypertarget{class_complex_a3e768eb0064f8355c8cfe656149e250c}\label{class_complex_a3e768eb0064f8355c8cfe656149e250c}} 
+\index{Complex@{Complex}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Complex@{Complex}}
+\doxysubsubsection{\texorpdfstring{operator$\ast$}{operator*}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_complex}{Complex}} operator$\ast$ (\begin{DoxyParamCaption}\item[{const double \&}]{a\+Lval,  }\item[{const \mbox{\hyperlink{class_complex}{Complex}} \&}]{a }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+См. определение в файле mycomplex.\+cpp строка 117
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{118 \{ \mbox{\hyperlink{class_complex}{Complex}} r;}
+\DoxyCodeLine{119    r.\mbox{\hyperlink{class_complex_aed0f7f2a72da406620581d863a6dc333}{Re}} =aLval* a.\mbox{\hyperlink{class_complex_aed0f7f2a72da406620581d863a6dc333}{Re}};}
+\DoxyCodeLine{120  r.\mbox{\hyperlink{class_complex_a25938efdb07e8d21e4a07392a3494e0b}{Im}} =aLval *a.\mbox{\hyperlink{class_complex_a25938efdb07e8d21e4a07392a3494e0b}{Im}};}
+\DoxyCodeLine{121   \textcolor{keywordflow}{return} r;}
+\DoxyCodeLine{122 \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_complex_a7a114a16a50d0f8663acbc2adbbb12c1}\label{class_complex_a7a114a16a50d0f8663acbc2adbbb12c1}} 
+\index{Complex@{Complex}!operator+@{operator+}}
+\index{operator+@{operator+}!Complex@{Complex}}
+\doxysubsubsection{\texorpdfstring{operator+}{operator+}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_complex}{Complex}} operator+ (\begin{DoxyParamCaption}\item[{const double \&}]{a\+Lval,  }\item[{const \mbox{\hyperlink{class_complex}{Complex}} \&}]{a\+Rval }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+См. определение в файле mycomplex.\+cpp строка 107
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{108 \{}
+\DoxyCodeLine{109 \mbox{\hyperlink{class_complex}{Complex}} Result;Result.\mbox{\hyperlink{class_complex_aed0f7f2a72da406620581d863a6dc333}{Re}}= aLval+aRval.\mbox{\hyperlink{class_complex_aed0f7f2a72da406620581d863a6dc333}{Re}};  Result. \mbox{\hyperlink{class_complex_a25938efdb07e8d21e4a07392a3494e0b}{Im}}=  aRval.\mbox{\hyperlink{class_complex_a25938efdb07e8d21e4a07392a3494e0b}{Im}};}
+\DoxyCodeLine{110 \textcolor{keywordflow}{return} Result;\}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_complex_a3d1644387325ea40d238936a67c8b047}\label{class_complex_a3d1644387325ea40d238936a67c8b047}} 
+\index{Complex@{Complex}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!Complex@{Complex}}
+\doxysubsubsection{\texorpdfstring{operator-\/}{operator-}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_complex}{Complex}} operator-\/ (\begin{DoxyParamCaption}\item[{const double \&}]{a\+Lval,  }\item[{const \mbox{\hyperlink{class_complex}{Complex}} \&}]{a\+Rval }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+См. определение в файле mycomplex.\+cpp строка 111
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{111                                                            \{\mbox{\hyperlink{class_complex}{Complex}} Result;}
+\DoxyCodeLine{112 Result.\mbox{\hyperlink{class_complex_aed0f7f2a72da406620581d863a6dc333}{Re}} = aLval -\/ aRval.\mbox{\hyperlink{class_complex_aed0f7f2a72da406620581d863a6dc333}{Re}};}
+\DoxyCodeLine{113 Result.\mbox{\hyperlink{class_complex_a25938efdb07e8d21e4a07392a3494e0b}{Im}} = -\/aRval.\mbox{\hyperlink{class_complex_a25938efdb07e8d21e4a07392a3494e0b}{Im}};}
+\DoxyCodeLine{114 \textcolor{keywordflow}{return} Result;}
+\DoxyCodeLine{115 \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_complex_acaf8464158083ae26bf694610bc7a5e1}\label{class_complex_acaf8464158083ae26bf694610bc7a5e1}} 
+\index{Complex@{Complex}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Complex@{Complex}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{ostream \&}]{stream,  }\item[{\mbox{\hyperlink{class_complex}{Complex}} \&}]{a }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+См. определение в файле mycomplex.\+cpp строка 103
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{105 \{stream << a.\mbox{\hyperlink{class_complex_aed0f7f2a72da406620581d863a6dc333}{Re}};  \textcolor{keywordflow}{if}( !(a.\mbox{\hyperlink{class_complex_a25938efdb07e8d21e4a07392a3494e0b}{Im}} < 0) ) stream << \textcolor{charliteral}{'+'};  stream << a.\mbox{\hyperlink{class_complex_a25938efdb07e8d21e4a07392a3494e0b}{Im}} << \textcolor{charliteral}{'i'};  \textcolor{keywordflow}{return} stream; \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{class_complex_ab19a08bc53dc9bb99828aec0f7fac0e0}\label{class_complex_ab19a08bc53dc9bb99828aec0f7fac0e0}} 
+\index{Complex@{Complex}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!Complex@{Complex}}
+\doxysubsubsection{\texorpdfstring{operator$>$$>$}{operator>>}}
+{\footnotesize\ttfamily istream\& operator$>$$>$ (\begin{DoxyParamCaption}\item[{istream \&}]{stream,  }\item[{\mbox{\hyperlink{class_complex}{Complex}} \&}]{a }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+См. определение в файле mycomplex.\+cpp строка 99
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{99                                                      \{}
+\DoxyCodeLine{100   \textcolor{keywordtype}{char} tmp[256];  stream >> a.\mbox{\hyperlink{class_complex_aed0f7f2a72da406620581d863a6dc333}{Re}} >> }
+\DoxyCodeLine{101 a.\mbox{\hyperlink{class_complex_a25938efdb07e8d21e4a07392a3494e0b}{Im}} >> tmp;}
+\DoxyCodeLine{102   \textcolor{keywordflow}{return} stream; \}}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Данные класса}
+\mbox{\Hypertarget{class_complex_a25938efdb07e8d21e4a07392a3494e0b}\label{class_complex_a25938efdb07e8d21e4a07392a3494e0b}} 
+\index{Complex@{Complex}!Im@{Im}}
+\index{Im@{Im}!Complex@{Complex}}
+\doxysubsubsection{\texorpdfstring{Im}{Im}}
+{\footnotesize\ttfamily double Complex\+::\+Im\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+См. определение в файле mycomplex.\+h строка 7
+
+\mbox{\Hypertarget{class_complex_aed0f7f2a72da406620581d863a6dc333}\label{class_complex_aed0f7f2a72da406620581d863a6dc333}} 
+\index{Complex@{Complex}!Re@{Re}}
+\index{Re@{Re}!Complex@{Complex}}
+\doxysubsubsection{\texorpdfstring{Re}{Re}}
+{\footnotesize\ttfamily double Complex\+::\+Re\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+См. определение в файле mycomplex.\+h строка 6
+
+
+
+Объявления и описания членов классов находятся в файлах\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/zvevr/\+Downloads/labs/lab8/coding\+\_\+style/\mbox{\hyperlink{mycomplex_8h}{mycomplex.\+h}}\item 
+C\+:/\+Users/zvevr/\+Downloads/labs/lab8/coding\+\_\+style/\mbox{\hyperlink{mycomplex_8cpp}{mycomplex.\+cpp}}\end{DoxyCompactItemize}
